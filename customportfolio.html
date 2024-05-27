@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>MacOS Style Navbar with Icons</title>
+      <link rel="stylesheet" href="customportfolio.css">
+      <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <!-- minify -->
+      <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+      <!-- latest -->
+      <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+       <!-- core style only -->
+      <link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <div class="navbar">
+          <div class="navbar-item logo"><i class="fab fa-apple"></i></div>
+          <div class="navbar-item"><i class="fas fa-file"></i> File</div>
+          <div class="navbar-item"><i class="fas fa-edit"></i> Edit</div>
+          <div class="navbar-item"><i class="fas fa-eye"></i> View</div>
+          <div class="navbar-item"><i class="fas fa-location-arrow"></i> Go</div>
+          <div class="navbar-item"><i class="fas fa-window-maximize"></i> Window</div>
+          <div class="navbar-item"><i class="fas fa-question-circle"></i> Help</div>
+      </div>
+      <div class="dropdown-content" id="file-dropdown">
+          <a href="#">New</a>
+          <a href="#">Open...</a>
+          <a href="#">Save</a>
+          <a href="#">Save As...</a>
+      </div>
+      <div class="dropdown-content" id="edit-dropdown">
+          <a href="#">Undo</a>
+          <a href="#">Redo</a>
+          <a href="#">Cut</a>
+          <a href="#">Copy</a>
+          <a href="#">Paste</a>
+      </div>
+
+      <div class="hero">
+        <img src="your-hero-image.jpg" alt="Hero Image">
+        <div class="hero-content">
+            <h1>Welcome to Our Website</h1>
+            <p>Your journey starts here</p>
+            <a href="#get-started" class="btn">Get Started</a>
+        </div>
+      </div>
+
+      
+      <!-- Add more dropdowns as needed -->
+      <script src="customportfolio.js"></script>
+  </body>
+</html>
